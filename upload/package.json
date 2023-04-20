@@ -1,0 +1,26 @@
+{
+  "name": "upload",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Liboq <99778162+Liboq@users.noreply.github.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/upload.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/upload.test.js",
+    "build":"npm exec mitosis build"
+
+  },
+  "dependencies": {
+    "@builder.io/mitosis": "^0.0.96",
+    "@builder.io/mitosis-cli": "^0.0.55",
+    "typescript": "^5.0.4"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "vue3",
+  "version": "0.0.0",
+  "description": "upload vue3",
+  "main": "vue3/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build"
+  },
+  "author": "lbq",
+  "license": "ISC",
+  "dependencies": {
+    "@vitejs/plugin-vue": "^4.1.0",
+    "path": "^0.12.7",
+    "typescript": "^5.0.4",
+    "vitest": "^0.30.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11"
+  }
+}
